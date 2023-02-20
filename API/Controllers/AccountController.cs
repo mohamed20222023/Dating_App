@@ -1,5 +1,4 @@
 
-
 using System.Security.Cryptography;
 using System.Text;
 using API.Data;
@@ -8,7 +7,6 @@ using API.Entities;
 using API.Intrfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging.Configuration;
 
 namespace API.Controllers
 {
