@@ -49,7 +49,7 @@ export class ErrorInterceptor implements HttpInterceptor {
 
             default:
               this.toaster.error("Something unexpected went wrong ");
-              console.log(error);
+              console.log(error.headers);
               break;
 
           }
